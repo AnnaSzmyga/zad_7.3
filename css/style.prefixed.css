@@ -14,8 +14,6 @@ body {
   border-radius: 5%;
   box-shadow: 3px 4px 10px 5px;
   text-align: center;
-  padding: 30px;
-  display: -ms-flexbox;
-  display: flex; }
+  padding: 30px; }
 
 /*# sourceMappingURL=style.prefixed.css.map */
