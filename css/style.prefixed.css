@@ -15,6 +15,7 @@ body {
   box-shadow: 3px 4px 10px 5px;
   text-align: center;
   padding: 30px;
+  display: -ms-flexbox;
   display: flex; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
