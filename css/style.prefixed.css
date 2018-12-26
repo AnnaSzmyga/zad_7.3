@@ -1,11 +1,13 @@
 body {
   background-color: lightgrey;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .song-page {
   background-color: white;
@@ -14,6 +16,6 @@ body {
   border-radius: 5%;
   box-shadow: 3px 4px 10px 5px;
   text-align: center;
-  padding: 30px; }
-
+  padding: 30px;
+}
 /*# sourceMappingURL=style.prefixed.css.map */

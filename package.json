@@ -1,5 +1,5 @@
 {
-  "name": "task-init-project-1",
+  "name": "Zad_7.3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -27,7 +27,8 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm run build && npm-run-all -p watch:*",
     "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
-    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css"
+    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
+    "watch:browsersync": "browser-sync start --server --watch"
   },
   "keywords": [],
   "author": "",
