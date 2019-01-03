@@ -1,5 +1,5 @@
 {
-  "name": "Zad_7.3",
+  "name": "task_7.3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
     "watch:sassprefixer": "onchange sass/style.scss -- npm-run-all build-dev:sass build:autoprefixer",
-    "watch:browsersync": "browser-sync start --server --watch"
+    "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\""
   },
   "keywords": [],
   "author": "",
